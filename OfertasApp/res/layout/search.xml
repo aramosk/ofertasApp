@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textSize="20sp"            
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/titulo" />
+
+        <EditText
+            android:id="@+id/tituloEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/textView1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/tituloEdit"
+            android:layout_marginTop="29dp"
+            android:textSize="20sp"
+            android:text="@string/ciudad" />
+
+        <Spinner
+            android:id="@+id/ciudadesSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tituloEdit"
+            android:layout_alignRight="@+id/tituloEdit"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_marginLeft="18dp" />
+
+        <Button
+            android:id="@+id/BuscarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/ciudadesSpinner"
+            android:layout_below="@+id/ciudadesSpinner"
+            android:textSize="20sp"
+            android:layout_marginTop="29dp"
+            android:text="@string/buscar" />
+
+    </RelativeLayout>

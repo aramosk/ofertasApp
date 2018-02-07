@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seas.alfredo.ofertas"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/seas"
+        android:label="@string/app_name" >
+        <uses-library android:name="com.google.android.maps"/>
+        <activity
+            android:name=".principal.OfertasLocation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".principal.OfertaDetail"
+				android:label="@string/detalle_oferta">
+		</activity>
+		<activity android:name=".consultas.OfertasActivity"
+				android:label="@string/ofertas">
+		</activity>
+		<activity android:name=".consultas.BusquedaForm"
+				android:label="@string/buscar_ofertas">
+		</activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission 
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission 
+        android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>

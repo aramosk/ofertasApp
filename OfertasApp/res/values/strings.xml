@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">OfertasApp</string>
+    <string name="detalle_oferta">Detalle de la oferta</string>
+    <string name="buscar_ofertas">Buscar ofertas</string>
+    <string name="ofertas">Ofertas</string>
+    <string name="salir">Salir</string>
+    <string name="titulo">Título</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="buscar">Buscar</string>
+    <string-array name="ciudades_array">
+        <item></item>
+        <item>Barcelona</item>
+        <item>Zaragoza</item>
+        <item>Madrid</item>
+        <item>Valencia</item>
+        <item>Sevilla</item>
+        <item>Santiago de Compostela</item>
+        <item>Bilbao</item>
+        <item>Mérida</item>
+        <item>Pamplona</item>
+    </string-array>
+
+</resources>

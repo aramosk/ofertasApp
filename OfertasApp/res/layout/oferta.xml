@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffffff"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/precio"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textSize="16sp"
+	android:textStyle="bold"
+	android:textColor="#ff000000"
+	android:layout_alignTop="@+id/precioLabel"
+	android:layout_alignLeft="@+id/descuento" />
+
+<TextView
+	android:id="@+id/negocio"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="16sp"
+	android:textStyle="bold"
+	android:textColor="#ff000000"
+	android:layout_below="@+id/precioLabel"
+	android:layout_alignLeft="@+id/precioLabel" />
+<TextView
+	android:id="@+id/direccion"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textColor="#ff000000"
+	android:layout_above="@+id/comprarButton"
+	android:layout_alignLeft="@+id/descripcion" />
+<TextView
+	android:id="@+id/descripcion"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textSize="16sp"
+	android:textColor="#ff000000"
+	android:layout_below="@+id/negocio"
+	android:layout_alignLeft="@+id/negocio" />
+<TextView
+	android:id="@+id/descuento"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textSize="16sp"
+	android:textStyle="bold"
+	android:textColor="#ff000000"
+	android:layout_alignTop="@+id/descuentoLabel"
+	android:layout_toRightOf="@+id/descuentoLabel" />
+<TextView
+	android:id="@+id/precioLabel"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Precio:  "
+	android:textSize="16sp"
+	android:textStyle="bold"
+	android:textColor="#ff000000"
+	android:layout_below="@+id/descuentoLabel"
+	android:layout_alignLeft="@+id/descuentoLabel" />
+<TextView
+	android:id="@+id/descuentoLabel"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Descuento:  "
+	android:textSize="16sp"
+	android:textStyle="bold"
+	android:textColor="#ff000000"
+	android:layout_below="@+id/Titulo"
+	android:layout_alignLeft="@+id/Titulo" />
+<TextView
+	android:id="@+id/Titulo"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="TextView"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="#ff000000"
+	android:layout_below="@+id/imagen"
+	android:layout_alignLeft="@+id/imagen" />
+<Button
+	android:id="@+id/comprarButton"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Comprar"
+	android:textSize="16sp"
+	android:textStyle="bold"
+	android:layout_alignParentBottom="true"
+	android:layout_alignRight="@+id/imagen" />
+<ImageView
+	android:id="@+id/imagen"
+	android:layout_width="288dp"
+	android:layout_height="156dp"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true" />
+</RelativeLayout>
